@@ -3,7 +3,7 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 
 class InformsTab extends StatelessWidget {
-  static const String routrName = "InformsTab";
+  static const String routeName = "InformsTab";
   static const List<String> langDropdownValues = ["500", "600", "700", "800"];
   final List<ChartData> chartDataCbc = [
     ChartData(2010, 0),

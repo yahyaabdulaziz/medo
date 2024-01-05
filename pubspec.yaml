@@ -19,6 +19,11 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter_flow_chart: ^1.0.0+1
   syncfusion_flutter_charts: ^24.1.44+1
+  google_maps_flutter: ^2.1.5
+  geolocator: ^10.1.0
+  location: ^5.0.0
+
+
 dev_dependencies:
   flutter_test:
     sdk: flutter

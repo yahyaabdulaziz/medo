@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:medo/emergency.dart';
+import 'package:medo/emergency_state.dart';
 import 'package:medo/informs_tab.dart';
 
 void main() {
@@ -12,8 +14,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      routes: {InformsTab.routrName: (_) => InformsTab()},
-      initialRoute: InformsTab.routrName,
+      routes: {
+        InformsTab.routeName: (_) => InformsTab(),
+        EmergencyTab.routeName: (_) => EmergencyTab(),
+        EmergencyState.routeName: (_) => EmergencyState(),
+      },
+      initialRoute: EmergencyState.routeName,
     );
   }
 }
