@@ -168,6 +168,16 @@ class InformsTab extends StatelessWidget {
                         borderRadius: BorderRadius.circular(12),
                         color: Colors.white70),
                     child: SfCartesianChart(
+                        primaryYAxis: const CategoryAxis(
+                            labelStyle: TextStyle(
+                                color: Colors.deepOrange,
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500)),
+                        primaryXAxis: const CategoryAxis(
+                            labelStyle: TextStyle(
+                                color: Color(0xff49A4AD),
+                                fontSize: 14,
+                                fontWeight: FontWeight.w500)),
                         series: <CartesianSeries<ChartData, int>>[
                           // Renders column chart
                           ColumnSeries<ChartData, int>(
